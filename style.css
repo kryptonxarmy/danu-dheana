@@ -392,3 +392,37 @@ body{
   position: absolute;
 }
 
+.penutup .gambar-footer a{
+  height: 50px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.411);
+  /* box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.788); */
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(150%,-260%);
+  overflow: hidden;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+  transition: all 0.7s;
+}
+
+.penutup .gambar-footer a h3{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.penutup .gambar-footer a:hover h3{
+  font-size: 18px;
+  color: white;
+}
+
+.penutup .gambar-footer a:hover{
+  background-color: rgb(66, 193, 252, 0.486);
+  box-shadow:  1px 1px 15px 5px rgb(253, 253, 253);
+}
+
