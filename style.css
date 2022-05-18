@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@font-face {
+  font-family: "Autography";
+  src: url(img/Autography.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body{
+  background-color: blue;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.gambar-utama{
+    padding: 0 5px;;
+    max-height: 600px;
+    overflow: hidden;
+    width: 120%;
+    margin-left: -20px;
+    background-color: red;
+}
+
+.gambar1 {
+  width: 120%;
+  margin: -50px;
+  padding: 0;
+  position: relative;
+  box-sizing: cover;
+}
+
+.linier-bg {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 1) 15%, rgba(9, 9, 121, 0) 83%);
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 400px;
+  right: 0;
+}
+
+.solid-bg {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  position: absolute;
+  height: max-content;
+  right: 0;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: -25px;
+  margin-top: -25px
+}
+
+.line1 {
+  background-color: white;
+  width: 200px;
+  height: 2px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.line2{
+  margin-bottom: 40px;
+  margin-top: -70px;
+}
+
+.story p {
+  color: #efca08;
+  text-align: center;
+  font-size: 12px;
+  padding: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.since {
+    align-items: center;
+}
+.since h3{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Times New Roman" , 'Times New Roman', Times, serif;
+    margin-top: -25px;
+}
+
+.since h2.sz-small ,.sz-medium{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.since h2.sz-medium{
+    font-size: 24px;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.tanggal{
+    display: flex;
+    justify-content: center;
+}
+
+.tanggal h2{
+    color: white;
+    font-family: "Times New Roman" , 'Times New Roman', Times, serif;
+    margin-right: 10px;
+}
+
+.tanggal h2.aug{
+    color: #efca08;
+}
+
+.tanggal .ver-line{
+    height: 40px;
+    width: 2px;
+    background-color: white;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+.galeri h3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.galeri{
+    background-color: blac;
+    overflow: hidden;
+    height: 500px;
+}
+
+
+/*  SLIDERRRR */
+.geseran{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.hi-slide {
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 115px auto 0;
+  }
+  .hi-slide .hi-prev,
+  .hi-slide .hi-next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    z-index: 99;
+    transition: background-color 0.7s ease;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .hi-slide .hi-prev{
+      position: absolute;
+      margin-left: 280px;
+  }
+
+  .hi-slide .hi-next{
+    position: absolute;
+    margin-right: 280px;
+}
+
+  .hi-slide .hi-next:hover,
+  .hi-slide .hi-prev:hover {
+    opacity: 1;
+    background-color: rgb(66, 193, 252, 0.486);
+    position: absolute;
+  }
+  .hi-slide .hi-prev {
+    left: -70px;
+  }
+
+  .hi-slide .hi-prev::before {
+    content: "<";
+  }
+
+  .hi-slide .hi-next {
+    right: -70px;
+  }
+
+  .hi-slide .hi-next::before {
+    content: ">";
+  }
+
+  .hi-slide > ul {
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hi-slide > ul > li {
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 1px 5px 50px 0.5px rgba(66, 193, 252, 0.486);
+    cursor: pointer;
+  }
+
+  .hi-slide > ul > li > img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+  }
+/* AKHIR SLIDERRR */
+
+
+
+.kisah h2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+
+.kisah{
+  display: flex;
+  flex-direction: column;
+}
+
+.kisah-konten{
+  background-color: transparent;
+  display: flex;
+  margin: 5px;
+}
+
+.kisah-konten-col{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.row-satu{
+  display: flex;
+  flex-direction: row;
+}
+
+.row-dua{
+  display: flex;
+  margin-top: 150px;
+}
+.kisah .gambar-satu{
+  background-color: transparent;
+  height: 200px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.kisah .gambar-satu img{
+  box-sizing: border-box;
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: all 0.5s;
+}
+
+.kisah .gambar-satu img:hover{
+  transform: scale(140%) translate(50%,25%) translateZ(100px);
+}
+.kisah .capt-satu{
+  height: 250px;
+  width: 200px;
+}
+.kisah .capt-satu p{
+  color: white;
+  font-size: 16px;
+}
+
+.kisah .capt-dua{
+  height: 250px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.kisah .capt-dua p{
+  color : white;
+}
+
+.kisah .gambar-dua{
+  height: 250px;
+  width: 200px;
+  background-color: blue;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.kisah .gambar-dua img{
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -50px;
+  border: 2px solid white;
+}
+
+.kisah .gambar-dua:hover {
+  transform: scale(120%) translate(-50%,-55%);
+}
+
+.line3{
+  margin-top: 100px;
+}
+
+.social-media h2{
+  color: white;
+  text-align: center;
+}
+.sos-danu{
+  background-color: transparent;
+}
+
+.sos-danu ul li{
+  margin: 20px;
+  display: inline-flex;
+  transform: translate(100%);
+}
+
+.sos-danu ul li a img{
+  width: 40px;
+  height: 40px;   
+}
+
+.penutup{
+  margin: 20px 0;
+  background-color: black;
+}
+
+.penutup h1{
+  color: white;
+  text-align: center;
+  left: 70px;
+  bottom: 220px;
+  font-family: "Autography";
+  position: absolute;
+}
+
+.penutup .gambar-footer{
+  background-image: url(/img/IMG_2561.JPG) ;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+
+.bg-linier-reverse{
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 3) 15%, rgba(9, 9, 121, 0) 51%);
+  position: absolute;
+}
+
